@@ -1,0 +1,108 @@
+﻿@using EasyLectureModel.Model
+@model StudentResponseModel
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h2>Students</h2>
+
+<form action="/Student/EditStudent" method="post">
+    <button type="submit" class="button add-student-btn" value="0" name="id">Student Add</button>
+</form>
+
+<ul class="student-list">
+    @if (Model?.Students != null)
+    {
+        foreach (var student in Model.Students)
+        {
+            if (!string.IsNullOrWhiteSpace(student.Name))
+            {
+                <li class="student-item">
+                    <span class="student-name">@student.Name</span>
+                    <div class="actions">
+                        <form action="/Student/editstudent" method="post" class="inline-form">
+                            <input type="hidden" name="Id" value="@student.Id" />
+                            <button type="submit" class="button edit-btn">Edit</button>
+                        </form>
+                        <form action="/Student/delete" method="post" class="inline-form">
+                            <input type="hidden" name="Id" value="@student.Id" />
+                            <button type="submit" class="button delete-btn">Delete</button>
+                        </form>
+                    </div>
+                </li>
+            }
+        }
+    }
+    else
+    {
+        <li>No active students available.</li>
+    }
+</ul>
+
+<style>
+    /* Genel düzenlemeler */
+    .student-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .student-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    .student-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+    }
+
+    .inline-form {
+        display: inline;
+    }
+
+    /* Buton stili */
+    .button {
+        padding: 6px 12px;
+        font-size: 14px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+    .edit-btn {
+        background-color: #008CBA;
+    }
+
+        .edit-btn:hover {
+            background-color: #007bb5;
+        }
+
+    .delete-btn {
+        background-color: #f44336;
+    }
+
+        .delete-btn:hover {
+            background-color: #d32f2f;
+        }
+
+    .add-student-btn {
+        background-color: #4CAF50;
+        margin-bottom: 20px;
+    }
+</style>

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLectureApi", "EasyLectureApi\EasyLectureApi.csproj", "{E671B98E-6942-4BDE-A17B-59A088EA4689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLectureModel", "EasyLectureModel\EasyLectureModel.csproj", "{1454518D-2529-4B33-AFB8-7A656B4B4EAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLectureBusiness", "EasyLectureBusiness\EasyLectureBusiness.csproj", "{9103F111-E929-402B-B471-FAF7BEF2C90B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLectureDAL", "EasyLectureDAL\EasyLectureDAL.csproj", "{0E686F25-527E-4376-A415-C8E6A7ACE0C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLectureMVC", "EasyLectureMVC\EasyLectureMVC.csproj", "{46AFBFC1-2109-45E5-8216-BB63DD6C30B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{B58421FC-1943-4B7B-BE15-5D2A053970E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7237E82E-D581-4906-88CA-9807B2799059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3378C634-8725-4596-A93A-7E95E136EC93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E671B98E-6942-4BDE-A17B-59A088EA4689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E671B98E-6942-4BDE-A17B-59A088EA4689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E671B98E-6942-4BDE-A17B-59A088EA4689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E671B98E-6942-4BDE-A17B-59A088EA4689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1454518D-2529-4B33-AFB8-7A656B4B4EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1454518D-2529-4B33-AFB8-7A656B4B4EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1454518D-2529-4B33-AFB8-7A656B4B4EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1454518D-2529-4B33-AFB8-7A656B4B4EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9103F111-E929-402B-B471-FAF7BEF2C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9103F111-E929-402B-B471-FAF7BEF2C90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9103F111-E929-402B-B471-FAF7BEF2C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9103F111-E929-402B-B471-FAF7BEF2C90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E686F25-527E-4376-A415-C8E6A7ACE0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E686F25-527E-4376-A415-C8E6A7ACE0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E686F25-527E-4376-A415-C8E6A7ACE0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E686F25-527E-4376-A415-C8E6A7ACE0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AFBFC1-2109-45E5-8216-BB63DD6C30B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AFBFC1-2109-45E5-8216-BB63DD6C30B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AFBFC1-2109-45E5-8216-BB63DD6C30B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AFBFC1-2109-45E5-8216-BB63DD6C30B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E671B98E-6942-4BDE-A17B-59A088EA4689} = {B58421FC-1943-4B7B-BE15-5D2A053970E4}
+		{1454518D-2529-4B33-AFB8-7A656B4B4EAA} = {3378C634-8725-4596-A93A-7E95E136EC93}
+		{9103F111-E929-402B-B471-FAF7BEF2C90B} = {3378C634-8725-4596-A93A-7E95E136EC93}
+		{0E686F25-527E-4376-A415-C8E6A7ACE0C9} = {3378C634-8725-4596-A93A-7E95E136EC93}
+		{46AFBFC1-2109-45E5-8216-BB63DD6C30B2} = {7237E82E-D581-4906-88CA-9807B2799059}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA1E2A3-D16F-489B-930F-066A02C9B1C9}
+	EndGlobalSection
+EndGlobal

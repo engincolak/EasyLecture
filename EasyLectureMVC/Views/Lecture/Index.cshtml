@@ -1,0 +1,96 @@
+﻿@using EasyLectureModel.Model;
+@using EasyLectureModel.Model.Lecture
+@model LectureAllResponseModel
+
+@{
+    ViewData["Title"] = "Lectures";
+}
+
+<h2>Lectures</h2>
+
+<div class="container">
+    <form action="/Lecture/lectureadd" method="post">
+        <button type="submit" class="btn btn-primary">Add Lecture</button>
+    </form>
+    <br />
+    <ul class="lecture-list">
+        @if (Model?.Lectures != null && Model.Lectures.Any(l => l.LctisActive))
+        {
+            foreach (var lecture in Model.Lectures.Where(l => l.LctisActive))
+            {
+                <li class="lecture-item">
+                    <span class="lecture-name">@lecture.LctName</span>
+                    <form action="/Lecture/delete" method="post" class="delete-form">
+                        <input type="hidden" name="Id" value="@lecture.LctId" />
+                        <input type="hidden" name="Name" value="string" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </li>
+            }
+        }
+        else
+        {
+            <li>No active lectures available.</li>
+        }
+    </ul>
+</div>
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .lecture-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .lecture-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    .lecture-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .delete-form {
+        margin: 0;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+</style>

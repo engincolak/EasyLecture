@@ -1,0 +1,5 @@
+C:\Users\engin\OneDrive\Masaüstü\Staj\EasyLectureApi\EasyLectureModel\obj\Debug\netcoreapp3.1\EasyLectureModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engin\OneDrive\Masaüstü\Staj\EasyLectureApi\EasyLectureModel\obj\Debug\netcoreapp3.1\EasyLectureModel.AssemblyInfoInputs.cache
+C:\Users\engin\OneDrive\Masaüstü\Staj\EasyLectureApi\EasyLectureModel\obj\Debug\netcoreapp3.1\EasyLectureModel.AssemblyInfo.cs
+C:\Users\engin\OneDrive\Masaüstü\Staj\EasyLectureApi\EasyLectureModel\obj\Debug\netcoreapp3.1\EasyLectureModel.csproj.CoreCompileInputs.cache
+C:\Users\engin\OneDrive\Masaüstü\Staj\EasyLectureApi\EasyLectureModel\obj\Debug\netcoreapp3.1\EasyLectureModel.sourcelink.json

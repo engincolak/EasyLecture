@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model StudentViewModel
+
+@if (Model != null)
+{
+    @await Html.PartialAsync("StudentInfo")
+}
+else
+{
+    @await Html.PartialAsync("TeacherInfo")
+}
+
+

@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model StudentViewModel
+
+<div class="student-container">
+    <h1>Welcome, @Model.UserName!</h1>
+
+    @if (Model != null)
+    {
+        <div class="student-details">
+            <h2>Student Details</h2>
+            <p>Email: @Model.EMail</p>
+
+            <h3>Lectures</h3>
+            @if (Model.Lectures.Any())
+            {
+                <ul class="lecture-list">
+                    @foreach (var lecture in Model.Lectures)
+                    {
+                        <li>@lecture</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>No lectures assigned.</p>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No student data available.</p>
+    }
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .student-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f0f0f0; /* Grimsi beyaz arka plan */
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    h1, h2, h3 {
+        color: #000000; /* Siyah yazı rengi */
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    p {
+        color: #000000; /* Siyah yazı rengi */
+        font-size: 1rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .lecture-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+        .lecture-list li {
+            padding: 10px;
+            background-color: #dddddd; /* Daha açık grimsi beyaz */
+            margin-bottom: 10px;
+            border-radius: 4px;
+            color: #000000; /* Siyah yazı rengi */
+        }
+
+    .no-data, .student-details {
+        text-align: center;
+        color: #000000; /* Siyah yazı rengi */
+    }
+
+</style>
