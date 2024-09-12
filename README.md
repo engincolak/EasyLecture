@@ -1,22 +1,34 @@
-# EasyLecture
+# 🎓 EasyLecture
 
-**EasyLecture**, eğitim kurumları için geliştirilmiş modern bir yönetim sistemidir. Öğretmenlerin ders ve öğrenci takibini yapmasına olanak tanır, öğrenciler ise aldıkları dersleri ve kişisel bilgilerini kolayca görüntüleyebilir.
+**EasyLecture**, eğitim kurumları için geliştirilmiş bir yönetim sistemidir. Öğretmenlerin ders ve öğrenci takibini yapmasına, öğrencilerin ise aldıkları dersleri ve bilgilerini görüntülemelerine olanak tanır.
 
-## 🚀 Özellikler
+## ✨ Özellikler
 
-### Login Sistemi:
-- Öğretmenler ve öğrenciler için güvenli giriş sistemi.
+### 🔑 Login Sistemi
+- **Öğretmenler** ve **öğrenciler** için güvenli giriş yapma imkanı.
 
-### Öğretmen Yetkileri:
-- Öğrenci ekleme.
-- Ders ekleme.
-- Öğrencilere ders atama.
+### 👨‍🏫 Öğretmen Yetkileri
+- 🧑‍🎓 Öğrenci ekleyebilir.
+- 📚 Ders ekleyebilir.
+- 🎯 Öğrencilere ders atayabilir.
 
-### Öğrenci Yetkileri:
-- Aldığı dersleri ve kişisel bilgilerini görüntüleme.
+### 👨‍🎓 Öğrenci Yetkileri
+- 📖 Aldığı dersleri görüntüleyebilir.
+- 🔍 Kişisel bilgilerini görüntüleyebilir.
 
 ## 🛠️ Kullanılan Teknolojiler
 
-Proje, aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
+Proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
-- **ASP.NET Web API
+- 🌐 **ASP.NET Web API**: API katmanını oluşturmak için.
+- 🖥️ **ASP.NET MVC**: Uygulamanın kullanıcı arayüzü ve işleyişini sağlamak için.
+- 💾 **MsSQL**: Veritabanı işlemleri için.
+- 🎨 **HTML & CSS**: Kullanıcı arayüzü tasarımı ve düzenlemeleri için.
+
+## 🏗️ Mimari
+
+API, 3 katmanlı bir mimariye sahiptir:
+
+1. **Business**: İş mantığı ve süreçlerinin yönetildiği katman.
+2. **DAL (Data Access Layer)**: Veritabanı işlemlerinin yapıldığı katman.
+3. **Model**: Veri modellerinin tanımlandığı katman.
