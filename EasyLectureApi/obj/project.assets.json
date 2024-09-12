@@ -4871,11 +4871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureApi\\EasyLectureApi.csproj",
+      "projectUniqueName": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureApi\\EasyLectureApi.csproj",
       "projectName": "EasyLectureApi",
-      "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureApi\\EasyLectureApi.csproj",
+      "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureApi\\EasyLectureApi.csproj",
       "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureApi\\obj\\",
+      "outputPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4893,11 +4893,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureBusiness\\EasyLectureBusiness.csproj": {
-              "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureBusiness\\EasyLectureBusiness.csproj"
+            "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureBusiness\\EasyLectureBusiness.csproj": {
+              "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureBusiness\\EasyLectureBusiness.csproj"
             },
-            "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureModel\\EasyLectureModel.csproj": {
-              "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLectureModel\\EasyLectureModel.csproj"
+            "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureModel\\EasyLectureModel.csproj": {
+              "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\Staj\\EasyLectureApi\\EasyLecture\\EasyLectureModel\\EasyLectureModel.csproj"
             }
           }
         }

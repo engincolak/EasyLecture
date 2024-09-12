@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyLectureApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400315a5517b5e12e47a14a4cc06c69cc9b02114")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a70d7392855f2a1a23a0d48c156c9f6b011f8a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyLectureApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyLectureApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
