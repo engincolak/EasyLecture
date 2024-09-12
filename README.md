@@ -26,7 +26,7 @@ Proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - 🖥️ **ASP.NET MVC**: Uygulamanın kullanıcı arayüzü ve işleyişini sağlamak için.
 - 💾 **MsSQL**: Veritabanı işlemleri için.
 - 🎨 **HTML & CSS**: Kullanıcı arayüzü tasarımı ve düzenlemeleri için.
-  ![EditStudent](https://i.hizliresim.com/9yp71o1.jpg) 
+- ![EditStudent](https://i.hizliresim.com/9yp71o1.jpg) 
 ## 🏗️ Mimari
 
 API, 3 katmanlı bir mimariye sahiptir:
