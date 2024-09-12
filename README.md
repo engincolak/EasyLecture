@@ -6,16 +6,18 @@
 
 ### 🔑 Login Sistemi
 - **Öğretmenler** ve **öğrenciler** için güvenli giriş yapma imkanı.
+  ![Login](https://i.hizliresim.com/2pzpymb.png) 
 
 ### 👨‍🏫 Öğretmen Yetkileri
 - 🧑‍🎓 Öğrenci ekleyebilir.
 - 📚 Ders ekleyebilir.
 - 🎯 Öğrencilere ders atayabilir.
+  ![EditStudent](https://i.hizliresim.com/jrynk72.png) 
 
 ### 👨‍🎓 Öğrenci Yetkileri
 - 📖 Aldığı dersleri görüntüleyebilir.
 - 🔍 Kişisel bilgilerini görüntüleyebilir.
-
+  ![EditStudent](https://i.hizliresim.com/sujak10.png) 
 ## 🛠️ Kullanılan Teknolojiler
 
 Proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
@@ -24,7 +26,7 @@ Proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - 🖥️ **ASP.NET MVC**: Uygulamanın kullanıcı arayüzü ve işleyişini sağlamak için.
 - 💾 **MsSQL**: Veritabanı işlemleri için.
 - 🎨 **HTML & CSS**: Kullanıcı arayüzü tasarımı ve düzenlemeleri için.
-
+  ![EditStudent](https://i.hizliresim.com/9yp71o1.jpg) 
 ## 🏗️ Mimari
 
 API, 3 katmanlı bir mimariye sahiptir:
